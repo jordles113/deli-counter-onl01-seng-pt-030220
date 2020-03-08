@@ -22,5 +22,5 @@ def take_a_number (line, name)
      line do |x|
        x.size[-1]
      end 
-   
+   end
  end 
