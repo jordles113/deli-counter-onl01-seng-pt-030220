@@ -19,8 +19,7 @@ def take_a_number (line, name)
  
  def now_serving (line)
   if line.empty?
-      do |x|
-       x.size[-1]
-     end 
+     puts "There is nobody waiting to be served!"
+      
    end
  end 
