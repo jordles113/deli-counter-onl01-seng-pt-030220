@@ -18,7 +18,7 @@ def take_a_number (line, name)
  end 
  
  def now_serving (line)
-  if 
+  if line.empty?
       do |x|
        x.size[-1]
      end 
