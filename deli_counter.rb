@@ -20,6 +20,8 @@ def take_a_number (line, name)
  def now_serving (line)
   if line.empty?
      puts "There is nobody waiting to be served!"
+   else 
+     puts currently serving
       
    end
  end 
