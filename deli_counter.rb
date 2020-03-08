@@ -21,7 +21,7 @@ def take_a_number (line, name)
   if line.empty?
      puts "There is nobody waiting to be served!"
    else 
-     puts "currently serving"
+     puts "Currently serving #{line.shift}"
       
    end
  end 
